@@ -1,31 +1,20 @@
 import React from "react";
 import Home from "./Home";
+import About from "./About";
+import Products from "./Products";
+import Shop from "./Shop";
+import Contact from "./Contact";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="main-links-nav">
-        <a
-          aria-current="page"
-          className="nav-link active"
-          href="https://en.wikipedia.org/wiki/Nature"
-        >
-          Home
-        </a>
-        <a aria-current="page" className="nav-link active" href="/">
-          About
-        </a>
-        <a aria-current="page" className="nav-link active" href="/">
-          Products
-        </a>
-        <a aria-current="page" className="nav-link active" href="/">
-          Shop
-        </a>
-        <a aria-current="page" className="nav-link active" href="/">
-          Contact
-        </a>
+        <Home />
+        <About />
+        <Products />
+        <Shop />
+        <Contact />
       </div>
-      <Home />
     </nav>
   );
 }

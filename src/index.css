@@ -7,13 +7,19 @@
 body {
   background-color: whitesmoke;
 }
-.img-container {
+.header-container {
   background-image: url(./img/header_img.jpg);
-  height: 60vh;
+  height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.header-content {
+  margin-left: 200px;
 }
 .logo {
   color: #d9a38c;
@@ -24,11 +30,6 @@ body {
 }
 .navbar {
   display: flex;
-  flex: 1 1;
-  justify-content: flex-end;
-  /* position: absolute;
-  margin: 20px;
-  width: auto; */
 }
 
 .main-links-nav {

@@ -6,9 +6,10 @@ function Header() {
   return (
     <div className="header-container">
       {/* <h1>Picture from header</h1> */}
-      <div className="img-container">yyy</div>
-      <Logo />
-      <Navbar />
+      <div className="header-content">
+        <Logo />
+        <Navbar />
+      </div>
     </div>
   );
 }
