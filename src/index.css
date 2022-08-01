@@ -47,3 +47,15 @@ body {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
 }
+
+.body-container {
+  height: 100vh;
+  color: #d9a38c;
+  font-size: 20px;
+  font-family: "Wild and Rad";
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  margin-top: 40px;
+  padding: 10px;
+}
