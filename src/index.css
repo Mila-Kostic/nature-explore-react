@@ -58,4 +58,38 @@ body {
   text-align: center;
   margin-top: 40px;
   padding: 10px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.works1-container {
+  background-image: url(./img/works1-river.jpg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.works2-container {
+  background-image: url(./img/works2-mountain.jpg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.works3-container {
+  background-image: url(./img/works3-lake.jpg);
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
