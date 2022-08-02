@@ -4,9 +4,11 @@ import Works from "./works/Works";
 
 function Body() {
   return (
-    <div className="body-container">
+    <div className="body">
       <Welcome />
+      <div className="body-container">
       <Works />
+      </div>
     </div>
   );
 }

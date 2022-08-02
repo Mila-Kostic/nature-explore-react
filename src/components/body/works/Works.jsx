@@ -6,10 +6,14 @@ import Works_3 from "./Works_3";
 function Works() {
   return (
     <div>
-      <h2>Works</h2>
-      <Works_1 />
-      <Works_2 />
-      <Works_3 />
+      <div>
+        <h3>Works</h3>
+      </div>
+      <div className="works-container">
+        <Works_1 />
+        <Works_2 />
+        <Works_3 />
+      </div>
     </div>
   );
 }
