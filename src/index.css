@@ -68,24 +68,28 @@ body {
 .works1-container {
   background-image: url(./img/works1-river.jpg);
   height: 50vh;
+  width: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* display: flex; */
 }
 .works2-container {
   background-image: url(./img/works2-mountain.jpg);
   height: 50vh;
+  width: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* display: flex; */
 }
 .works3-container {
   background-image: url(./img/works3-lake.jpg);
   height: 50vh;
+  width: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* display: flex; */
+}
+.p {
+  border-color: red;
+  border-style: solid;
 }
