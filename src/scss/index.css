@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.u-padding-large {
+  padding: 1rem 2rem;
+}
+
+h1::after,
+h2::after,
+h3::after {
+  content: "";
+  height: 0.3rem;
+  width: 5rem;
+  background-color: red;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-readMore {
+  padding: 1rem 2rem;
+  background-color: rgb(212, 163, 115);
+  border: none;
+}
+
+.card {
+  background-color: rgb(254, 250, 224);
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 1rem 1rem rgb(212, 163, 115);
+}
+.card p {
+  padding: 1rem;
+}
+
+.App {
+  border: 5px solid red;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.header-container {
+  background-image: linear-gradient(120deg, rgba(247, 247, 247, 0.9) 0, rgba(255, 255, 255, 0.4) 50%, rgba(4, 177, 119, 0.2) 50%), url("../img/header_img.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-container__box {
+  width: 50%;
+  margin-left: 10rem;
+}
+.header-container__box .logo {
+  background-color: rgba(212, 163, 115, 0.5);
+  width: 70%;
+  border-radius: 5px;
+}
+.header-container .navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(212, 163, 115);
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+.header-container .navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.works-container {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-around;
+}
+
+.projects-container {
+  border: 5px solid orange;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-around;
+}/*# sourceMappingURL=index.css.map */

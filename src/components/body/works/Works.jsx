@@ -6,8 +6,8 @@ import Works_3 from "./Works_3";
 function Works() {
   return (
     <div>
-      <div>
-        <h3>Works</h3>
+      <div className="u-padding-large">
+        <h2>What can I do for you</h2>
       </div>
       <div className="works-container">
         <Works_1 />

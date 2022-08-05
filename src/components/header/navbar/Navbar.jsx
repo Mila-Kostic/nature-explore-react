@@ -8,13 +8,11 @@ import Contact from "./Contact";
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="main-links-nav">
-        <Home />
-        <About />
-        <Products />
-        <Shop />
-        <Contact />
-      </div>
+      <Home />
+      <About />
+      <Products />
+      <Shop />
+      <Contact />
     </nav>
   );
 }

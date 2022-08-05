@@ -1,0 +1,138 @@
+$pale-spring-bud: rgba(204, 213, 174, 1);
+$pale-spring-bud-2: rgba(233, 237, 201, 1);
+$cornsilk: rgba(254, 250, 224, 1);
+$papaya-whip: rgba(250, 237, 205, 1);
+$fawn: rgba(212, 163, 115, 1);
+$fawn05: rgb(212, 163, 115);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  // 62.5% = 10px
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+// globalni setings
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.u-padding-large {
+  padding: 1rem 2rem;
+}
+
+h1,
+h2,
+h3 {
+  &::after {
+    content: "";
+    height: 0.3rem;
+    width: 5rem;
+    background-color: red;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-readMore {
+  padding: 1rem 2rem;
+  background-color: $fawn;
+  border: none;
+}
+
+.card {
+  background-color: $cornsilk;
+  padding: 2rem 0;
+  text-align: center;
+  box-shadow: 0 1rem 1rem $fawn;
+  p {
+    padding: 1rem;
+  }
+}
+
+.App {
+  border: 5px solid red;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.header-container {
+  background-image: linear-gradient(
+      120deg,
+      rgba(247, 247, 247, 0.9) 0,
+      rgba(rgb(255, 255, 255), 0.4) 50%,
+      rgba(4, 177, 119, 0.2) 50%
+    ),
+    url("../img/header_img.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__box {
+    width: 50%;
+    margin-left: 10rem;
+    .logo {
+      background-color: rgba($fawn05, 0.5);
+      width: 70%;
+      border-radius: 5px;
+    }
+  }
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $fawn;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.works-container {
+  //border: 5px solid orange;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-around;
+}
+
+.projects-container {
+  border: 5px solid orange;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  justify-content: space-around;
+}

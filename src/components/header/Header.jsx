@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="header-container">
       {/* <h1>Picture from header</h1> */}
-      <div className="header-content">
+      <div className="header-container__box">
         <Logo />
         <Navbar />
       </div>
