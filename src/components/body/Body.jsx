@@ -9,6 +9,8 @@ function Body() {
       <Welcome />
       <div className="body-container">
         <Works />
+      </div>
+      <div>
         <Projects />
       </div>
     </div>

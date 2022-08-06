@@ -7,13 +7,15 @@ import Project_4 from "./Project_4";
 function Projects() {
   return (
     <div className="card">
-      <h3>Woden Toys</h3>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit
-        magnam nobis in alias autem culpa hic, obcaecati asperiores
-        necessitatibus sit!
-      </p>
-      <button className="btn-readMore">Read more</button>
+      <div className="u-padding-large">
+        <h2>My projects </h2>
+      </div>
+      <div className="works-container">
+        <Project_1 />
+        <Project_2 />
+        <Project_3 />
+        <Project_4 />
+      </div>
     </div>
   );
 }
