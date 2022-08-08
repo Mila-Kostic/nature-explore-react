@@ -38,7 +38,7 @@ h3 {
 }
 
 .u-padding-large {
-  padding: 1rem 2rem;
+  padding: 2rem 4rem;
 }
 
 h1,
@@ -131,25 +131,33 @@ h3 {
 }
 
 .projects-container {
-  border: 5px solid orange;
+  //border: 5px solid red;
   display: grid;
-  grid-template-columns: repeat(3, 30%);
+  grid-template-columns: repeat(4, 20%);
   justify-content: space-around;
 }
-
-/*ispraviti sekciju My projects*/
-.card-project {
-  background-image: linear-gradient(
-      120deg,
-      rgba(247, 247, 247, 0.9) 0,
-      rgba(rgb(255, 255, 255), 0.4) 50%,
-      rgba(4, 177, 119, 0.2) 50%
-    ),
-    url("../img/project1-river.jpg");
+.project1-img {
+  background-image: url("../img/project1-river.jpg");
   background-position: center;
   background-size: cover;
-  height: 30rem;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  height: 25rem;
+  width: 25rem;
+}
+.project2-img {
+  background-image: url("../img/project2-mountain.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+.project3-img {
+  background-image: url("../img/project3-lake.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+}
+.project4-img {
+  background-image: url("../img/project4-desert.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
 }

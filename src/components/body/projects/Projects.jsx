@@ -6,11 +6,12 @@ import Project_4 from "./Project_4";
 
 function Projects() {
   return (
-    <div className="card">
+    <div className="projects">
       <div className="u-padding-large">
         <h2>My projects </h2>
       </div>
-      <div className="works-container">
+      <div className="projects-container">
+        {/* <div className="project-img."></div> */}
         <Project_1 />
         <Project_2 />
         <Project_3 />

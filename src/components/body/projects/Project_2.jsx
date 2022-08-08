@@ -3,7 +3,8 @@ import React from "react";
 function Project_2() {
   return (
     <div className="card">
-      <h3>Woden Toys</h3>
+      <div className="project2-img"></div>
+      <h3>Project 2</h3>
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit
         magnam nobis in alias autem culpa hic, obcaecati asperiores
