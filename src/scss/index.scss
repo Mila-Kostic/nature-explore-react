@@ -136,28 +136,39 @@ h3 {
   grid-template-columns: repeat(4, 20%);
   justify-content: space-around;
 }
-.project1-img {
-  background-image: url("../img/project1-river.jpg");
+
+.project {
   background-position: center;
   background-size: cover;
   height: 25rem;
   width: 25rem;
 }
+.project1-img {
+  background-image: url("../img/project1-river.jpg");
+}
 .project2-img {
   background-image: url("../img/project2-mountain.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 25rem;
 }
 .project3-img {
   background-image: url("../img/project3-lake.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 25rem;
 }
 .project4-img {
   background-image: url("../img/project4-desert.jpg");
-  background-position: center;
-  background-size: cover;
-  height: 25rem;
+}
+.footer {
+  background-color: rgba($fawn05, 0.5);
+  color: whitesmoke;
+  height: 10rem;
+  margin: 3rem;
+  padding: 3rem;
+  text-align: center;
+
+  .social-icons {
+    font-size: 3rem;
+    //border: 1px solid red;
+  }
+  .heart {
+    font-size: 1.5rem;
+    color: red;
+  }
 }

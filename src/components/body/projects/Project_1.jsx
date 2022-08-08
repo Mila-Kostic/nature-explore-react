@@ -3,7 +3,7 @@ import React from "react";
 function Project_1() {
   return (
     <div className="card">
-      <div className="project1-img"></div>
+      <div className="project1-img project"></div>
       <h3>Project 1</h3>
 
       <p>

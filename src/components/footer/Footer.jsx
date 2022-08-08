@@ -4,8 +4,7 @@ import SocialContact from "./social_contact/SocialContact";
 
 function Footer() {
   return (
-    <div>
-      Footer
+    <div className="footer">
       <Info />
       <SocialContact />
     </div>
