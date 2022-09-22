@@ -169,4 +169,10 @@ h3::after {
 .footer .heart {
   font-size: 1.5rem;
   color: red;
+  margin: 0 auto;
+}
+.footer .heart:hover {
+  color: rgb(126, 48, 126);
+  cursor: -webkit-grab;
+  cursor: grab;
 }/*# sourceMappingURL=index.css.map */

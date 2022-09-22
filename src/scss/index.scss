@@ -187,5 +187,10 @@ h3 {
   .heart {
     font-size: 1.5rem;
     color: red;
+    margin: 0 auto;
+  }
+  .heart:hover {
+    color: rgb(126, 48, 126);
+    cursor: grab;
   }
 }
