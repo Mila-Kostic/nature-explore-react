@@ -118,6 +118,12 @@ h3::after {
   color: white;
   text-decoration: none;
   font-size: 1.6rem;
+  margin: 0 0 16px;
+  padding: 5px;
+}
+.header-container .navbar a:hover {
+  color: silver;
+  cursor: 1;
 }
 
 .works-container {
