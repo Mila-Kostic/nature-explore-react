@@ -11,25 +11,31 @@ html {
 body {
   width: 100vw;
   height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.45;
 }
 
 h1 {
   font-size: 3rem;
   text-align: center;
+  margin: 0 0 16px 0;
 }
 
 h2 {
   font-size: 2.5rem;
   text-align: center;
+  margin: 0 0 16px 0;
 }
 
 h3 {
   font-size: 1.6rem;
   text-align: center;
+  margin: 0 0 16px 0;
 }
 
 .u-padding-large {
   padding: 2rem 4rem;
+  margin: 0 0 16px 0;
 }
 
 h1::after,
@@ -40,7 +46,6 @@ h3::after {
   width: 5rem;
   background-color: red;
   display: block;
-  margin: 0 auto;
 }
 
 .text-center {
@@ -48,9 +53,21 @@ h3::after {
 }
 
 .btn-readMore {
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
   padding: 1rem 2rem;
   background-color: rgb(212, 163, 115);
   border: none;
+  border-radius: 5px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+
+.btn-readMore:hover {
+  background: silver;
+  color: rgb(212, 163, 115);
 }
 
 .card {
