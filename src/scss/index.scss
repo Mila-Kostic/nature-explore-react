@@ -182,8 +182,14 @@ h3 {
 
   .social-icons {
     font-size: 3rem;
+    color: rgb(129, 179, 160);
     //border: 1px solid red;
   }
+  .social-icons:hover {
+    color: silver;
+    cursor: grabbing;
+  }
+
   .heart {
     font-size: 1.5rem;
     color: red;

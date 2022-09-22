@@ -165,6 +165,12 @@ h3::after {
 }
 .footer .social-icons {
   font-size: 3rem;
+  color: rgb(129, 179, 160);
+}
+.footer .social-icons:hover {
+  color: silver;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
 .footer .heart {
   font-size: 1.5rem;
