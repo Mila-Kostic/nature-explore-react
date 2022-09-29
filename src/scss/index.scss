@@ -132,6 +132,10 @@ h3 {
     margin-top: 1rem;
     border-radius: 5px;
 
+    .navbar:hover {
+      background-color: silver;
+    }
+
     a {
       color: white;
       text-decoration: none;
@@ -145,7 +149,6 @@ h3 {
     }
   }
 }
-
 .works-container {
   //border: 5px solid orange;
   display: grid;
@@ -204,5 +207,11 @@ h3 {
   .heart:hover {
     color: rgb(126, 48, 126);
     cursor: grab;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(231, 219, 231);
   }
 }
