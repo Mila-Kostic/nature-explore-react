@@ -210,7 +210,7 @@ h3 {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 800px) and (max-width: 1024px) {
   body {
     background-color: rgb(231, 219, 231);
   }
